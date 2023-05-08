@@ -1,0 +1,19 @@
+{
+  "name": "a04-api",
+  "version": "1.0.0",
+  "description": "This is a project in wrapping the rock-paper-scissors functions in API endpoints using Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "rock-paper-scissors",
+    "rps",
+    "rpsls",
+    "rock-paper-scissors-lizard-spock",
+    "Express.js"
+  ],
+  "author": "@auchil02",
+  "license": "GPL-3.0-or-later"
+}
