@@ -16,5 +16,9 @@
   ],
   "author": "@auchil02",
   "license": "GPL-3.0-or-later",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "^1.2.8"
+  }
 }
