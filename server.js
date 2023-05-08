@@ -1,4 +1,4 @@
-!#/usr/bin/env node
+#!/usr/bin/env node
 
 import minimist from 'minimist';
 import express, { JSON, URLencoded } from 'express';
