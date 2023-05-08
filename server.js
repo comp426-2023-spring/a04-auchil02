@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist';
-import express, { JSON, URLencoded } from 'express';
+import express, { json, urlencoded } from 'express';
 import { rps,rpsls } from './lib/rpsls.js';
 
 const argv = minimist(process.argv.slice(2));
 const app = express();
 const port = argv.port || 5000;
 
-app.use(JSON());
-app.use(URLencoded({extended: true}));
+app.use(json());
+app.use(urlencoded({extended: true}));
 
 // root endpoint
 app.get('/app', (req, res) => {
